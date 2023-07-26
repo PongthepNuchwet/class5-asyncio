@@ -2,9 +2,13 @@ import time
 
 my_compute_time = 5
 opponent_compute_time = 55
-opponents = 24
-move_pairs = 30
+opponents = 1
+# opponents = 24
+move_pairs = 1
+# move_pairs = 30
 
+# วิธีการคำนวน ((my_compute_time + opponent_compute_time) * move_pairs * opponents) / 60 / 60
+# ((5+55)*30*24) / 43200 sec / 720 minutes  = 12 hour
 
 def main(x):
     # Loops 30 times to simulate both players making a move

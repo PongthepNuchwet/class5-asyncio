@@ -5,6 +5,8 @@ my_compute_time = 5
 opponent_compute_time = 55
 opponents = 24
 move_pairs = 30
+# วิธีคำนวน my_compute_time * opponents * move_pairs
+# 5*24*30 = 3600 sec = 60 minutes = 1 hour
 
 
 # Again notice that I declare the main() function as a async function
