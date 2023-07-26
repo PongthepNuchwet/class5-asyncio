@@ -5,8 +5,11 @@ my_compute_time = 5
 opponent_compute_time = 55
 opponents = 24
 move_pairs = 30
+
+# การทำงานแบบ async, Judit เล่นแล้วให้ไปเล่นโต๊ะถัดไปทันที ไม่จำเป็นต้องรอให้ opponents เดินเสร็จ ทำให้ผลการทำนวนตามนี้
 # วิธีคำนวน my_compute_time * opponents * move_pairs
 # 5*24*30 = 3600 sec = 60 minutes = 1 hour
+
 
 
 # Again notice that I declare the main() function as a async function

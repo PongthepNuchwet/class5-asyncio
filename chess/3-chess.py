@@ -6,7 +6,7 @@ opponents = 1
 # opponents = 24
 move_pairs = 1
 # move_pairs = 30
-
+# Judit และ opponents เดิน 1 รอบ ให้เวลา 60 วินาที และต้องเดิน 30 รอบ  และเล่นให้ครบทุกโต๊ะจำนวน 24 โต๊ะ จะได้การคำนวนดังนี้
 # วิธีการคำนวน ((my_compute_time + opponent_compute_time) * move_pairs * opponents) / 60 / 60
 # ((5+55)*30*24) / 43200 sec / 720 minutes  = 12 hour
 
